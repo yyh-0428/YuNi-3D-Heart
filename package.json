@@ -1,0 +1,20 @@
+{
+  "name": "yu-ni-a-heart-for-you",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "An original, procedural Three.js anatomical heart with synchronized heartbeat audio. Entirely offline.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "vendor:update": "node scripts/update-vendor.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}
